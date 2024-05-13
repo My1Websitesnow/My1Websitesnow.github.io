@@ -5,6 +5,7 @@ body{
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
 h1{
 text-align: center;
 text-decoration: underline;
@@ -282,3 +283,120 @@ border-top: 2px solid #888;
     margin-bottom: 10px;
 
 } 
+
+/* Quiz container */
+#quiz-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #00aaff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Questions */
+.question {
+    margin-bottom: 20px;
+}
+
+/* Options */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Answer container */
+#answer-container {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: none;
+    max-width: 400px; /* Make the container smaller */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+}
+
+#result-container {
+    max-width: 400px; /* Make the container smaller */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    margin-top: 20px; /* Add margin to separate from quiz container */
+    margin-left: auto; /* Center the container horizontally */
+    margin-right: auto; /* Center the container horizontally */
+}
+
+/* Define CSS styles for tick and cross symbols */
+.tick, .cross {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.tick {
+    color: green;
+}
+
+.cross {
+    color: red;
+}
+
+/* Styles for "See answer" box */
+.see-answer-box {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    line-height: 200px; /* Adjust vertically centered text */
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+#feedback-container .show-border {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#feedback-container {
+    margin-top: 20px;
+}
+
+.question-image {
+  display: block;
+  margin: 10px auto; /* Adjust the margin as needed */
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}

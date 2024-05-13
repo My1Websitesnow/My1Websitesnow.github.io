@@ -32,7 +32,7 @@ function myFunction() {
 
     // Example usage: Load external navbar content into the element with ID "navbar-container"
     var navbarContainer = document.getElementById('navbar-container');
-    loadExternalNavbar('../NavBar/NavBar(Silver).html', navbarContainer);
+    loadExternalNavbar('../../NavBar/NavBar(Silver).html', navbarContainer);
 });
 
 document.addEventListener("DOMContentLoaded", function() {

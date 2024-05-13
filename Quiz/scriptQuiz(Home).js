@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Example usage: Load external navbar content into the element with ID "navbar-container"
     var navbarContainer = document.getElementById('navbar-container');
-    loadExternalNavbar('../NavBar/NavBar(Home).html', navbarContainer);
+    loadExternalNavbar('../../NavBar/NavBar(Home).html', navbarContainer);
 });
 
 

@@ -287,10 +287,10 @@
   </div>
 </div>
 <script>
-		 document.addEventListener('DOMContentLoaded', function() {
-            addHoverVideoBehavior('.video-container');
+        // Wait for the DOM content to load before starting the quiz
+        document.addEventListener("DOMContentLoaded", function() {
+            startQuiz(); // Call the startQuiz function from your script
         });
-
-	</script>
+    </script>
 </body>
 </html>

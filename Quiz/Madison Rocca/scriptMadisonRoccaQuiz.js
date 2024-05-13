@@ -1,75 +1,80 @@
 // Define an array to store questions, options, and correct answers
 const questions = [{
-    question: "What is Lauren Shiba's role in the Power Rangers universe?",
-    options: ["a) Pink Ranger", "b) Red Ranger", "c) Blue Ranger", "d) Green Ranger"],
+    question: "What was the name of the sorceress who turned Madison and her friends into Power Rangers?",
+    options: ["a) Rita Repulsa", "b) Udonna", "c) Morgana", "d) Scorpina"],
     answer: "b",
     answered: false,
-	imagePath: "../../female power rangers_Lauren Shiba(Kimberley Crossman)/lauren shiba.png" 
+	imagePath: "../../female power rangers_Madison Rocca(Melanie Vallejo)/maddison rocca.jpg" 
   },
   {
-    question: "Which Power Rangers series does Lauren Shiba appear in?",
-    options: ["a) Mighty Morphin Power Rangers", "b) Power Rangers Ninja Storm", "c) Power Rangers Super Samurai", "d) Power Rangers Dino Charge"],
+    question: "In which season of Power Rangers did Madison Rocca appear?",
+    options: ["a) Power Rangers Dino Thunder", "b) Power Rangers Ninja Storm", "c) Power Rangers Mystic Force", "d) Power Rangers SPD"],
     answer: "c",
     answered: false,
-	imagePath: "../../female power rangers_Lauren Shiba(Kimberley Crossman)/lauren shiba1.png"
+	imagePath: "../../female power rangers_Madison Rocca(Melanie Vallejo)/maddison rocca1.jpg"
   },
   {
-    question: "What unique ability does Lauren Shiba possess as the Red Ranger that sets her apart from other Rangers?",
-    options: ["a) Invisibility", "b) Teleportation", "c) Time manipulation", "d) Elemental control"],
+    question: "What color was the Ranger suit worn by Madison Rocca?",
+    options: ["a) Red", "b) Blue", "c) Yellow", "d) Green"],
+    answer: "b",
+    answered: false,
+	imagePath: "../../female power rangers_Madison Rocca(Melanie Vallejo)/PRMF-Madison_Rocca.webp" 
+  },
+				   
+  {
+    question: "Which element did Madison Rocca represent as a Power Ranger?",
+    options: ["a) Fire", "b) Water", "c)  Earth", "d) Wind"],
+    answer: "b",
+    answered: false,
+	imagePath: "../../female power rangers_Madison Rocca(Melanie Vallejo)/" 
+  },
+				   
+  {
+    question: "What was Madison's special weapon as a Power Ranger?",
+    options: ["a) Power Sword", "b) Eagle Sword", "c)  Zip Charger", "d)  Magi Staff"],
     answer: "d",
     answered: false,
-	imagePath: "../../female power rangers_Lauren Shiba(Kimberley Crossman)/LaurenPRSS.webp" 
+	imagePath: "../../female power rangers_Madison Rocca(Melanie Vallejo)/" 
   },
+				   
   {
-    question: "What is the name of Lauren Shiba's Zord?",
-    options: ["a) Dragon FoldingZord", "b) Lion FoldingZord", "c) Tiger FoldingZord", "d) Bear FoldingZord"],
-    answer: "b",
+    question: "Which actor portrayed the character of Madison Rocca?",
+    options: ["a) Melanie Vallejo", "b) Alyson Hannigan", "c) Cerina Vincent", "d)  Melody Perkins"],
+    answer: "a",
     answered: false,
-	imagePath: "../../female power rangers_Lauren Shiba(Kimberley Crossman)/lauren shiba(kc).jpeg" 
+	imagePath: "../../female power rangers_Madison Rocca(Melanie Vallejo)/" 
   },
+				   
   {
-    question: "What special weapon does Lauren Shiba wield as a Power Ranger?",
-    options: ["a)  Thunder Staff", "b) Fire Smasher", "c)  Samurai Saber", "d)  Mega Blaster"],
-    answer: "b",
+    question: "Which Mystic Force Ranger was Madison's love interest?",
+    options: ["a) Nick Russell", "b) Xander Bly", "c) Chip Thorn", "d) Daggeron"],
+    answer: "a",
     answered: false,
-	imagePath: "../../female power rangers_Lauren Shiba(Kimberley Crossman)/ls(kc).jpg" 
-  },
-  {
-    question: "What is the backstory of Lauren Shiba's character?",
-    options: ["a)   Former villain turned hero ", "b) Long-lost sister of another Ranger ", "c)  Alien from another planet", "d)  Trained by a legendary Ranger"],
-    answer: "b",
-    answered: false,
-	imagePath: "../../female power rangers_Lauren Shiba(Kimberley Crossman)/PRSS_-_Lauren.webp" 
-  },
-  {
-    question: "Who is Lauren Shiba's primary antagonist in the series?",
-    options: ["a)   Rita Repulsa ", "b)  Master Xandred ", "c)   Lord Zedd ", "d)  Emperor Mavro "],
-    answer: "b",
-    answered: false,
-	imagePath: "../../female power rangers_Lauren Shiba(Kimberley Crossman)/lauren KC shiba.png" 
+	imagePath: "../../female power rangers_Madison Rocca(Melanie Vallejo)/" 
   },
 
   {
-    question: "What distinguishes Lauren Shiba's leadership style from other Power Rangers leaders?",
-    options: ["a)   She's more impulsive ", "b)  She's more cautious ", "c)    She's more aggressive ", "d)  She's more diplomatic "],
-    answer: "d",
+    question: "What was the name of the Zord piloted by Madison Rocca?",
+    options: ["a) Mystic Phoenix", "b)  Mystic Sprite", "c) Mystic Mermaid", "d) Mystic Garuda"],
+    answer: "c",
     answered: false,
-	imagePath: "../../female power rangers_Lauren Shiba(Kimberley Crossman)/Lauren (Kimberly).png" 
+	imagePath: "../../female power rangers_Madison Rocca(Melanie Vallejo)/" 
   },
 
   {
-    question: "How many episodes of 'Power Rangers Super Samurai' does Lauren Shiba appear in?",
-    options: ["a)   1 ", "b)  2 ", "c)  4 ", "d)  5 "],
+    question: "What was the name of the primary antagonist in Power Rangers Mystic Force?",
+    options: ["a) Emperor Gruumm", "b)  Master Vile", "c) Master Org", "d) Octomus the Master"],
     answer: "d",
     answered: false,
-	imagePath: "../../female power rangers_Lauren Shiba(Kimberley Crossman)/shiba(crossman).png" 
+	imagePath: "../../female power rangers_Madison Rocca(Melanie Vallejo)/" 
   },
+				   
   {
-    question: "What actor portrays Lauren Shiba in the Power Rangers series?",
-    options: ["a) Brittany Anne Pirtle ", "b) Erika Fong ", "c) Kimberly Crossman ", "d) Ciara Hann "],
-    answer: "c",
+    question: "What was the name of the city where Madison and the other Power Rangers operated?",
+    options: ["a) Angel Grove", "b) Briarwood", "c) Mariner Bay", "d) Blue Bay Harbor"],
+    answer: "b",
     answered: false,
-	imagePath: "../../female power rangers_Lauren Shiba(Kimberley Crossman)/PRSS_-_Lauren shiba.jpg" 
+	imagePath: "../../female power rangers_Madison Rocca(Melanie Vallejo)/" 
   },
 ];
 
